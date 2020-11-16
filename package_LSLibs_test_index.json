@@ -1,0 +1,15 @@
+{
+  "packages": [
+    {
+      "name": "myboard",
+      "maintainer": "Jane Developer",
+      "websiteURL": "https://github.com/janedeveloper/myboard",
+      "email": "jane@janedeveloper.org",
+      "help": {
+        "online": "http://janedeveloper.org/forum/myboard"
+      },
+      "platforms": [],
+      "tools": []
+    }
+  ]
+}
