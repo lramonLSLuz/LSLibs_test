@@ -1,14 +1,40 @@
 {
   "packages": [
     {
-      "name": "myboard",
-      "maintainer": "Jane Developer",
-      "websiteURL": "https://github.com/janedeveloper/myboard",
-      "email": "jane@janedeveloper.org",
+      "name": "LSLuz",
+      "maintainer": "Luis Ramón",
+      "websiteURL": "https://github.com/lramonLSLuz/LSLibs_test",
+      "email": "lramon@lsluz.com",
       "help": {
-        "online": "http://janedeveloper.org/forum/myboard"
+        "online": "https://github.com/lramonLSLuz/LSLibs_test/wiki"
       },
-      "platforms": [],
+      "platforms": [
+        "name": "LS Board",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/lramonLSLuz/LSLibs_test/wiki"
+          },
+          "url": "https://github.com/lramonLSLuz/LSLibs_test/blob/gh-pages/LSLibs_test-main.zip",
+          "archiveFileName": "LSLibs_test-main.zip",
+          "checksum": "SHA-256:d8cbfc94d126419f0e9b0307d2fb2f5d7541fae49eadbed717572e3e2c652384",
+          "size": "17030",
+          "boards": [{ "name": "LS Uno" }],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
       "tools": []
     }
   ]
